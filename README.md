@@ -1,30 +1,35 @@
-# tp-2020-1c-Pandemiga Delibird
+# Delibird 2020
+### Pandemiga Team
 UTN's Operating Systems Project
 
-# Instrucciones
+[Link to the Objectives can be found here.](https://docs.google.com/document/d/1be91Gn93O2Vp8frZoV1i5CmtOG0scE1PS8dMHsCP314/edit)
+
+TLDR: Project in C that implements Sockets, Multithreading, Server-client arquitectures, Unit testing, and 4 processes working congruently to catch and manage pokemons in memory.
+
+# Instructions
 
 ## VSCODE:
 
--Clonar el repo
+-Clone the repository
 
--Abrir vscode
+-Open VSCode
 
--Archivo->Abrir área de trabajo
+-File->Open Workspace
 
--Seleccionar "vscode-workspace"
+-Select "vscode-workspace"
 
--Para compilar & ejecutar, Seleccionar Tareas -> Ejecutar tarea -> (el programa que quieras, con o sin valgrind) 
-Si querés hacerlo más dinámico podés [usar keybindngs](https://code.visualstudio.com/docs/editor/tasks#_binding-keyboard-shortcuts-to-tasks) 
+-To compile and execute, Select Tasks -> Execute Task -> (the process you want, with or without Valgrind)
+If you'd rather use keybinds you can do so as explained [here](https://code.visualstudio.com/docs/editor/tasks#_binding-keyboard-shortcuts-to-tasks) 
 
--Para debuggear, ir al ícono de debug a la izquierda y seleccionar el programa a debuggear. Luego, apretar f5 o el botón verde.
-Debuggear NO compila y NO usa valgrind.
+-To Debug, go to the Debug section to the left and select the program to execute. Then, press F5 or the green button.
+Debugging DOES NOT compile first and DOES NOT use Valgrind.
 
-## CONSOLA:
+## CONSOLE:
 
--Ir a la carpeta del proyecto (p.e dentro de broker)
+-Go to the project's file (broker, for instance)
 
--Escribir make
+-Write 'make'
 
--Escribir ./(nombredelproyecto)
+-Write './(projectsname)'
 
--Alternativamente, escribir ./exec o ./exec_valgrind para realizar ambos pasos de una
+-If you want, write './exec' or './exec_valgrind' to do both steps at the same time.
